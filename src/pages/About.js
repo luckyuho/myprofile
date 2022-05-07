@@ -15,8 +15,15 @@ const About = () => {
             <tbody data-aos="fade-up">
               <tr>
                 <th scope="row">
-                  <h3>Work Experience</h3>
+                  <h3 className="about-title">Work Experience</h3>
                 </th>
+                <td className="align-right">
+                  <img
+                    className="about-img"
+                    src="images/about/owl3d.png"
+                    alt=""
+                  />
+                </td>
               </tr>
             </tbody>
             <tbody data-aos="fade-up">
@@ -64,8 +71,15 @@ const About = () => {
             <tbody data-aos="fade-up">
               <tr>
                 <th scope="row">
-                  <h3>Education</h3>
+                  <h3 className="about-title">Education</h3>
                 </th>
+                <td className="align-right">
+                  <img
+                    className="about-img"
+                    src="images/about/certificate.png"
+                    alt=""
+                  />
+                </td>
               </tr>
             </tbody>
             <tbody data-aos="fade-up">
@@ -142,10 +156,10 @@ const About = () => {
               </tr>
             </tbody>
 
-            <tbody data-aos="fade-up">
+            <tbody data-aos="fade-up" id="skill">
               <tr>
                 <th scope="row">
-                  <h3>Skills & Knowledge</h3>
+                  <h3 className="about-title">Skills & Knowledge</h3>
                 </th>
               </tr>
             </tbody>
@@ -171,7 +185,7 @@ const About = () => {
                 <td>
                   <p className="text-justify">
                     Web3, Block chain, Smart contract, Front-end, Machine
-                    learning, Deep learning, Computer vision, GPS
+                    learning, Deep learning, Computer vision
                   </p>
                 </td>
               </tr>

@@ -19,7 +19,7 @@ https://templatemo.com/tm-567-nomad-force
   --title-color:                  #565758;
   --p-color:                      #717275;
 
-  --body-font-family:           'Kalam', cursive,'M PLUS Rounded 1c', sans-serif;
+  --body-font-family:           'Noto Sans TC', sans-serif, 'Open Sans', sans-serif;
 
   --h1-font-size:               72px;
   --h2-font-size:               42px;
@@ -118,6 +118,10 @@ p {
   letter-spacing: 0.5px;
 }
 
+p.paragraph {
+  text-indent: 2em;
+}
+
 .text-secondary-white-color {
   color: var(--text-secondary-white-color);
 }
@@ -169,12 +173,20 @@ a:hover {
 }
 
 .overlay {
-  background: linear-gradient(to bottom, #000, transparent 20%), linear-gradient(to top, #000, transparent 60%);
+  background: linear-gradient(to bottom, #000, transparent 60%), linear-gradient(to top, #000, transparent 60%);
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+img.about-img {
+   height: 150px;
+}
+
+.align-right {
+  text-align: right;
 }
 
 /*---------------------------------------
@@ -225,17 +237,31 @@ strong {
   NAVIGATION               
 -----------------------------------------*/
 #navlogo {
-  height: 40px;
+  height: 30px;
 }
 
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+#navbarid {
+  /* z-index: 19 ; */
+}
 .navbar {
-  z-index: 19;
-  right: 0;
+  z-index: 19 !important;
+  /* right: 0;
   left: 0;
   top: 0;
   overflow: hidden;
-  position: fixed;
-  
+  position: fixed; */
+  /* position: absolute; */
 }
 
 .nav-link {
@@ -397,7 +423,7 @@ strong {
 
 .heroText {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -736,6 +762,18 @@ strong {
   .news-detail-title {
     font-size: 36px;
   }
+  h3.about-title {
+    font-size: large;
+  }
+  img.about-img {
+    height: 100px;
+ }
+}
+
+@media screen and (max-width: 414px) {
+  img.about-img {
+    height: 80px;
+ }
 }
 
 @media screen and (max-width: 360px) {

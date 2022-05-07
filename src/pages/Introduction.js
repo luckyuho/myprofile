@@ -16,13 +16,43 @@ const Introduction = () => {
 
           <div className="col-lg-6 col-12 mt-3 mb-lg-5">
             <p
-              className="me-4 text-justify"
+              className="me-4 text-justify paragraph"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              我熱衷於科技，對於新奇的事物充滿興趣。自研究所後就開始愛上打程式，一路從定位演算法開發，再到深度學習身經網路，而現在對於區塊鏈與前端亦充滿著濃厚的興趣。
-              <br />
-              近期我花了大量的時間上網自學Udemy及Hahow平台上的課程，使得我從原本只會Python、C++等語言，開始會了關於html、Javascript等等，不得不說，真一路的學習真的很過癮，尤其是以前僅專注於演算法開發的我來說，會製作使用者介面後，有種說不出的感動，很令人振奮。而我目前是一位想找關於區塊鏈或前端設計工作的博班生，如果對我有興趣的話，可以看看下面的
+              我熱衷於科技，對於新奇的事物充滿興趣。自研究所後就開始愛上打程式，一路從定位演算法開發，再到深度學習神經網路，而現在對於區塊鏈與前端設計充滿著濃厚的興趣。
+            </p>
+            <p
+              className="me-4 text-justify paragraph"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              近期我花了大量的時間上網自學Udemy及Hahow平台上的課程，使得我從原本只會python、c++等語言，開始學會關於
+              <a href="#skill" className="text-success">
+                solidity、html、css、javascript
+              </a>
+              等等，這一路的學習真的很過癮。
+            </p>
+            <p
+              className="me-4 text-justify paragraph"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              以前僅專注於演算法開發，現在則能利用以前演算法的邏輯能力，變成快速學習新知識的工具。
+              <a href="#projects" className="text-success">
+                現在已能測試與部署智能合約，並為其設計使用者設計介面，令使用者有更好的體驗
+              </a>
+              ，這一切的一切，有種終於把以往所學的東西串起來的感覺。
+            </p>
+          </div>
+
+          <div className="col-lg-6 col-12 mt-lg-3 mb-lg-5">
+            <p
+              className="paragraph text-justify"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              我目前是一位想找關於區塊鏈或前端設計工作的博班生，如果對我有興趣的話，可以看看下面的
               <a className="text-success" href="#about">
                 About Me
               </a>
@@ -34,50 +64,46 @@ const Introduction = () => {
               >
                 linkedin
               </a>
-              。
-            </p>
-          </div>
-
-          <div className="col-lg-6 col-12 mt-lg-3 mb-lg-5">
-            <p data-aos="fade-up" data-aos-delay="500">
-              有關區塊鏈及前端的課程中，從中學到最多也最推薦的有下面三堂課，分別為：
+              。而在我學習有關區塊鏈及前端設計的課程中，從中學到最多也最推薦的有下面三堂課推薦給大家，分別為：
             </p>
             <ul
               className="list-group list-group-flush"
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <li className="list-group-item">
-                <a
-                  target="_blank"
-                  className="text-success"
-                  href="https://hahow.in/courses/5b3cdd6ed03140001eebeadc/main?item=5b407229bc0cfe001ecd2876"
-                >
-                  零基礎邁向區塊鏈工程師:Solidity智能合約
-                </a>{" "}
-                by 西西老師
-              </li>
-              <li className="list-group-item">
-                <a
-                  target="_blank"
-                  className="text-success"
-                  href="https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/"
-                >
-                  Ethereum and Solidity: The Complete Developer's Guide
-                </a>{" "}
-                by Stephen Grider
-              </li>
-              <li className="list-group-item">
-                <a
-                  target="_blank"
-                  className="text-success"
-                  href="https://www.udemy.com/course/html5-css3-z/"
-                >
-                  2022網頁開發全攻略(HTML, CSS, JavaScript, React, SQL, Node,
-                  more)
-                </a>{" "}
-                by Wilson Ren
-              </li>
+              <p>
+                <li className="list-group-item">
+                  <a
+                    target="_blank"
+                    className="text-success"
+                    href="https://hahow.in/courses/5b3cdd6ed03140001eebeadc/main?item=5b407229bc0cfe001ecd2876"
+                  >
+                    零基礎邁向區塊鏈工程師:Solidity智能合約
+                  </a>{" "}
+                  by 西西老師
+                </li>
+                <li className="list-group-item">
+                  <a
+                    target="_blank"
+                    className="text-success"
+                    href="https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/"
+                  >
+                    Ethereum and Solidity: The Complete Developer's Guide
+                  </a>{" "}
+                  by Stephen Grider
+                </li>
+                <li className="list-group-item">
+                  <a
+                    target="_blank"
+                    className="text-success"
+                    href="https://www.udemy.com/course/html5-css3-z/"
+                  >
+                    2022網頁開發全攻略(HTML, CSS, JavaScript, React, SQL, Node,
+                    more)
+                  </a>{" "}
+                  by Wilson Ren
+                </li>
+              </p>
             </ul>
           </div>
         </div>
@@ -135,11 +161,27 @@ const Introduction = () => {
 
                 <div className="carousel-item">
                   <img
-                    src="images/introduction/snowboard_.jpeg"
+                    src="images/introduction/service_.jpeg"
                     className="img-fluid team-image"
                     alt=""
                   />
                 </div>
+
+                {/* <div className="carousel-item">
+                  <img
+                    src="images/introduction/chorus_.jpeg"
+                    className="img-fluid team-image"
+                    alt=""
+                  />
+                </div> */}
+
+                {/* <div className="carousel-item">
+                  <img
+                    src="images/introduction/snowboard_.jpeg"
+                    className="img-fluid team-image"
+                    alt=""
+                  />
+                </div> */}
               </div>
 
               <button

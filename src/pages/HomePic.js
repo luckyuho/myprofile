@@ -17,12 +17,20 @@ const HomePic = () => {
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          人生就是充滿可能性，不斷挑戰，超越自我，活出精彩！
+          人生充滿可能性，不斷挑戰，超越自我，活出精彩！
+          <div>
+            <a href="#skill" className="text-info">
+              #區塊鏈
+            </a>{" "}
+            <a href="#skill" className="text-info">
+              #前端設計
+            </a>
+          </div>
         </h5>
       </div>
 
       <div className="videoWrapper">
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -31,7 +39,8 @@ const HomePic = () => {
         >
           <source src="videos/homevideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <img className="custom-video" src="videos/bg-developers.jpeg" alt="" />
       </div>
 
       <div className="overlay"></div>

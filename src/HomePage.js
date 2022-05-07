@@ -6,15 +6,21 @@ import Introduction from "./pages/Introduction";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Headroom from "react-headroom";
 
 const HomePage = () => {
   return (
     <div>
-      <Nav />
+      <Headroom style={{ zIndex: 9 }}>
+        <Nav />
+        {/* <h3 className="bg-info">hi</h3> */}
+      </Headroom>
       <HomePic />
+
       <Introduction />
-      <About />
       <Projects />
+      <About />
+
       <Contact />
       <Footer />
     </div>
