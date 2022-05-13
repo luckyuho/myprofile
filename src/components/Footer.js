@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="col-7">
             <p className="mt-2">Design: YUHO</p>
             <p className="mt-2">Copyright © YUHO 2022 </p>
-            <p>
+            {/* <p>
               Template from:
               <a
                 href="https://themewagon.com/themes/nomad-force-free-bootstrap-5-html5-landing-page-template/"
@@ -23,19 +23,11 @@ const Footer = () => {
               >
                 ThemeWagon, TemplateMo, Nomad Force 2021
               </a>
-            </p>
+            </p> */}
           </div>
 
           <div className="col-lg-2 col-2 ms-auto">
             <ul className="social-icon">
-              {/* <li>
-                <a
-                  target="_blank"
-                  href="https://www.facebook.com/yuho.haha"
-                  className="social-icon-link bi-facebook"
-                ></a>
-              </li> */}
-
               <li>
                 <a
                   target="_blank"
