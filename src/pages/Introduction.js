@@ -59,6 +59,16 @@ const Introduction = () => {
                 </p>
               </li>
             </ul>
+            <div className="button-center pt-3">
+              <a href="/cv/YUHO-resume.pdf" download="YUHO Resume">
+                <button
+                  type="button"
+                  className="btn rounded-pill btn-success px-5 py-2"
+                >
+                  Download Resume
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

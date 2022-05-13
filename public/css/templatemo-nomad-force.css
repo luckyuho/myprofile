@@ -235,6 +235,14 @@ img.about-img {
   border-radius: 5px;
 }
 
+.list-group-item {
+  padding: 0;
+}
+
+.button-center {
+  text-align: center;
+}
+
 /*---------------------------------------
   CUSTOM LINK               
 -----------------------------------------*/
