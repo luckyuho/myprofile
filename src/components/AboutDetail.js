@@ -7,7 +7,7 @@ const AboutDetail = () => {
         <tbody>
           <tr>
             <th scope="row">
-              <h3 className="text-white">Work Experience</h3>
+              <h3 className="text-white about-title">Work Experience</h3>
             </th>
             <td className="align-right">
               <img className="about-img" src="images/about/owl3d.png" alt="" />
@@ -61,7 +61,7 @@ const AboutDetail = () => {
         <tbody>
           <tr>
             <th scope="row">
-              <h3 className="text-white">Education</h3>
+              <h3 className="text-white about-title">Education</h3>
             </th>
             <td className="align-right">
               <img
@@ -155,7 +155,7 @@ const AboutDetail = () => {
         <tbody id="skill">
           <tr>
             <th scope="row">
-              <h3 className="text-white">Skills & Knowledge</h3>
+              <h3 className="text-white about-title">Skills & Knowledge</h3>
             </th>
           </tr>
         </tbody>

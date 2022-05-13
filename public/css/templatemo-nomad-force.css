@@ -718,8 +718,11 @@ strong {
 }
 
 @media screen and (max-width: 414px) {
+  h3.about-title {
+    font-size:medium;
+  }
   img.about-img {
-    height: 80px;
+    height: 60px;
  }
  .btn-custom-lg {
   padding: 0.2rem 1.3rem;
