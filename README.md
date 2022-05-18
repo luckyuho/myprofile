@@ -1,2 +1,4 @@
 # Here is my personal website
-[personal website build on aws: http://52.207.85.58/](http://52.207.85.58/)
+welcome to visit my personal website
+<br />
+The link is: [http://52.207.85.58/](http://52.207.85.58/), which is built on aws
